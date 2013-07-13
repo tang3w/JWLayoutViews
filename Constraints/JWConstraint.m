@@ -26,8 +26,8 @@
 #import "UIView+LayoutManager.h"
 
 @interface JWConstraint ()
-@property (nonatomic, readwrite, retain) UIView *view;
-@property (nonatomic, readwrite, retain) UIView *relativeView;
+@property (nonatomic, readwrite, unsafe_unretained) UIView *view;
+@property (nonatomic, readwrite, unsafe_unretained) UIView *relativeView;
 @property (nonatomic, readwrite, assign) JWConstraintAttribute attribute;
 @property (nonatomic, readwrite, assign) JWConstraintAttribute relativeAttribute;
 @property (nonatomic, readwrite, assign) CGFloat scale;

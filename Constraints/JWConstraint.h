@@ -65,8 +65,8 @@ typedef enum {
 
 - (CGFloat)relativeValueInView:(UIView*)view;
 
-@property (nonatomic, readonly, retain) UIView *view;
-@property (nonatomic, readonly, retain) UIView *relativeView;
+@property (nonatomic, readonly, unsafe_unretained) UIView *view;
+@property (nonatomic, readonly, unsafe_unretained) UIView *relativeView;
 @property (nonatomic, readonly, assign) JWConstraintAttribute attribute;
 @property (nonatomic, readonly, assign) JWConstraintAttribute relativeAttribute;
 @property (nonatomic, readonly, assign) CGFloat scale;
