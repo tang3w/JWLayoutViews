@@ -144,6 +144,9 @@
         case kJWConstraintHeight:
             rVal = CGRectGetHeight(frame);
             break;
+        case kJWConstraintZero:
+            rVal = 0.0f;
+            break;
     }
     return (rVal * self.scale) + self.offset;
 }
@@ -169,6 +172,8 @@
             return @"Max-Y";
         case kJWConstraintHeight:
             return @"Height";
+        case kJWConstraintZero:
+            return @"Zero";
     }
     return @"";
 }

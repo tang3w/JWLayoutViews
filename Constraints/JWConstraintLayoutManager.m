@@ -219,6 +219,8 @@ CGFloat AxisAttributeValue(CGRect frame, JWConstraintAxisValues axisVal, BOOL is
             return CGRectGetMaxY(frame);
         case kJWConstraintHeight:
             return CGRectGetHeight(frame);
+        case kJWConstraintZero:
+            return 0.0f;
     }
     
     return val;

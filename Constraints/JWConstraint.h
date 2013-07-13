@@ -33,6 +33,7 @@ typedef enum {
     kJWConstraintMidY = 1 << 5,
     kJWConstraintMaxY = 1 << 6,
     kJWConstraintHeight = 1 << 7,
+    kJWConstraintZero = 0
 }JWConstraintAttribute;
 
 @interface JWConstraint : NSObject
