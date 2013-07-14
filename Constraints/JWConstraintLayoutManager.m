@@ -184,8 +184,6 @@ int attribute_to_axis(JWConstraintAttribute attribute)
                                          userInfo:nil] raise];
     }
     
-    //NSLog(@"%@", nodes);
-    
     self.needsConstraintsUpdate = NO;
 }
 
