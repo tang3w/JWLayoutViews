@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'JWLayoutViews'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'better(?) layout systems for iOS.'
   s.description  = <<-DESC
                       'Real' layout controls for iOS
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   }
   s.source       = {
     :git => 'https://github.com/tang3w/JWLayoutViews.git',
-    :tag => '0.0.1'
+    :tag => '0.0.2'
   }
   s.platform     = :ios, '4.0'
   s.source_files = '**/*.{h,m}'
